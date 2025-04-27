@@ -1,0 +1,74 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.center {
+    text-align: center;
+}
+
+.preview {
+    background-image: url('/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 22px 0 53px 0;
+
+}
+
+.button {
+    border: 10px;
+    color: aliceblue;
+    padding: 15px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: brown;
+    border-color: white;
+
+}
+
+.item_svg {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.item_text {
+    max-width: 175px;
+}
+
+.wrapper_flex {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.item_more {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.rightside {
+    max-width: 600px;
+    text-align: center;
+    color: white;
+    background-color: brown;
+    border: 2px;
+    border-radius: 8px;
+    border-color: white;
+}
+
+.leftside {
+    max-width: 600px;
+    text-align: center;
+}
