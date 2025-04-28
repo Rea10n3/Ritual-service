@@ -1,3 +1,7 @@
+body {
+    background-color: #FFFAF0;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -41,6 +45,7 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
+    padding: 40px 20px;
 }
 
 .item_more {
@@ -63,12 +68,27 @@
     text-align: center;
     color: white;
     background-color: brown;
-    border: 2px;
     border-radius: 8px;
-    border-color: white;
+    padding: 25px 15px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .leftside {
     max-width: 600px;
     text-align: center;
+    font-size: 23px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 25px 35px;
+    border-radius: 8px;
+    border: 2px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.information {
+    padding: 22px 0 53px 0;
 }
